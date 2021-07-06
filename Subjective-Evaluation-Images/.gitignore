@@ -2,8 +2,10 @@ lib
 lib64
 bin
 share
+etc
 
 admin_ips.txt
 **/__pycache__
+.ipynb_checkpoints
 **.pickle
 **.egg-info

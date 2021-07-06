@@ -89,27 +89,17 @@ PairedComparisonPage.prototype.render = function (_parent) {
   var div = $("<div></div>");
   _parent.append(div);
 
-
-
-  var content; 
-    if(this.pageConfig.content === null){
-      content ="";
-    } else {
-      var timeout = setTimeout(RemoveImages, 4000)
-      content = this.pageConfig.content;
-    }
-
-
-    function RemoveImages(){
-      img_elem_1 = document.getElementsByClassName('tempimage')[0]
-      img_elem_2 = document.getElementsByClassName('tempimage')[1]
-      img_elem_1.remove()
-      img_elem_2.remove()
-    }
-
-
-  var p = $("<p>" + content + "</p>");
+  var content = this.pageConfig.content || "";
+  
+  var p = $("<p style='height: 250px'>" + content + "</p>");
   div.append(p);
+
+  var timeout = null
+  if (content) {
+    timeout = setTimeout(function() {
+        p.children().hide();
+    }, 4000)
+  }
 
   var table = $("<table id='main' align='center'></table>");
   div.append(table);
@@ -205,9 +195,10 @@ PairedComparisonPage.prototype.render = function (_parent) {
   // });
   radioChoice.find("input[type='radio']").bind("change", (function(){
       this.pageTemplateRenderer.unlockNextButton();
-      clearTimeout(timeout);
-  }
-    ).bind(this));
+//       if (timeout !== null) {
+//         clearTimeout(timeout);   
+//       }
+  }).bind(this));
 
   this.macic = new MushraAudioControlInputController(this.mushraAudioControl, this.pageConfig.enableLooping);
   this.macic.bind();
