@@ -2,3 +2,8 @@ lib
 lib64
 bin
 share
+
+admin_ips.txt
+**/__pycache__
+**.pickle
+**.egg-info

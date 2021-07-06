@@ -9,4 +9,4 @@ while read ip; do
 done < $SCRIPT_DIR/admin_ips.txt
 
 source $SCRIPT_DIR/bin/activate
-pymushra server $ADMIN_IPS_OPTIONS
+pymushra server $ADMIN_IPS_OPTIONS --port 5001

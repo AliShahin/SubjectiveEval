@@ -115,7 +115,10 @@ def admin_or_token_allow(f):
         elif request.args.get('token', None) == SECURITY_TOKEN:
             return f(*args, **kwargs)
         else:
-            return abort(403)
+            # disable this for now
+            #return abort(403)
+            return f(*args, **kwargs)
+
     return wrapped
 
 
@@ -163,7 +166,8 @@ def home():
             return pagemap
         
         all_conf_files, all_seen_files = select_unique_yaml_files()
-        untaken_pages = [p for p in all_conf_files if p not in pagemap.values()]
+        # no pagemap locking for now
+        untaken_pages = all_conf_files # [p for p in all_conf_files if p not in pagemap.values()]
         
         untaken_disjoint_pages = [p for p in untaken_pages if p in disjoint_pages]
         untaken_extra_pages = [p for p in untaken_pages if p not in disjoint_pages]
