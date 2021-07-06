@@ -1,0 +1,83 @@
+bufferSize: 2048
+pages:
+- content: Welcome to image similarity evaluation. <br/> You will be presented a pair of images in each page.<br /> You will be required to answer by <b>Yes</b> or <b>No</b> to the question of <br /> <b>Are these two images similar?</b>.
+  id: first_page
+  name: Welcome
+  type: generic
+- content: '<img src="static/imgs/Results/G_FF/ILSVRC2012_val_00002030.png"> <img src="static/imgs/Results/G_Filter/ILSVRC2012_val_00002030.png">'
+  enableLooping: false
+  id: trialAB2
+  name: null
+  showWaveform: false
+  stimuli:
+    C1: G_ILSVRC2012_val_00002030.png
+    C2: G_ILSVRC2012_val_00002030.png
+  type: paired_comparison
+  unforced: null
+- content: '<img src="static/imgs/Results/ND_FF/ILSVRC2012_val_00002030.png"> <img src="static/imgs/Results/ND_Filter/ILSVRC2012_val_00002030.png">'
+  enableLooping: false
+  id: trialAB2
+  name: null
+  showWaveform: false
+  stimuli:
+    C1: static/imgs/FilterFool/image1.png
+    C2: static/imgs/Filter/image2.png
+  type: paired_comparison
+  unforced: null
+- content: '<img src="static/imgs/Results/L_FF/ILSVRC2012_val_00002030.png"> <img src="static/imgs/Results/L_Filter/ILSVRC2012_val_00002030.png">'
+  enableLooping: false
+  id: trialAB2
+  name: null
+  showWaveform: false
+  stimuli:
+    C1: static/imgs/Results/L_FF/ILSVRC2012_val_00002030.png
+    C2: static/imgs/Results/L_FF/ILSVRC2012_val_00002030.png
+  type: paired_comparison
+  unforced: null  
+- content: Thank you for attending.
+  name: The test is finished
+  questionnaire:
+  - label: Name
+    name: name
+    type: text
+  - label: Email
+    name: email
+    type: text
+  - label: Age
+    name: age
+    response:
+    - label: 0 to 20
+      value: 0-20
+    - label: 20 to 40
+      value: 20-40
+    - label: 40 to 60
+      value: 20-40
+    - label: 40 to 60
+      value: 40-60
+    type: likert
+  - label: Gender
+    name: gender
+    response:
+    - label: Female
+      value: female
+    - label: Male
+      value: male
+    - label: Other
+      value: other
+    type: likert
+  - label: Have you participated in image subjective evailation before
+    name: subjective_eval_ever
+    response:
+    - label: 'Yes'
+      value: 'yes'
+    - label: 'No'
+      value: 'no'
+    type: likert
+  showResults: false
+  type: finish
+  writeResults: true
+remoteService: service/write.php
+showButtonPreviousPage: true
+stopOnErrors: true
+testId: ab_noloop
+testname: Image Similarity Test
