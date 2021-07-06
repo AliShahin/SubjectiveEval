@@ -91,7 +91,7 @@ PairedComparisonPage.prototype.render = function (_parent) {
 
   var content = this.pageConfig.content || "";
   
-  var p = $("<p style='height: 250px'>" + content + "</p>");
+  var p = $("<p style='height: 430px'>" + content + "</p>");
   div.append(p);
 
   var timeout = null

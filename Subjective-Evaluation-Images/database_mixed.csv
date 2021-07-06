@@ -1,0 +1,2 @@
+preferred_image,left_image,right_image,time,ip,name,email,age,gender,subjective_eval_ever,uuid,configs
+Yes,ILSVRC2012_val_00011407.png,ILSVRC2012_val_00011407.png,06/07/2021,127.0.0.1,Ali Shamsabadi,a.shahinshamsabadi@qmul.ac.uk,20-40,male,yes,fdf148d8-1165-486b-a6ba-c6702a9c978d,idx_0_40.yaml
