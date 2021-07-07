@@ -58,7 +58,7 @@ PageTemplateRenderer.prototype.renderNavigation = function(_parentId) {
   }
 
   
-  if (this.pageManager.getPageIndex() < (this.pageManager.getNumPages() - 1)) {
+  if (this.pageManager.getPageIndex() == 0) { // (this.pageManager.getPageIndex() < (this.pageManager.getNumPages() - 1)) {
     var buttonNext = $("<button id='__button_next' data-role='button' data-inline='true' onclick='" + this.pageManager.getPageManagerVariableName() + ".nextPage();'>" + this.pageManager.getLocalizer().getFragment(this.language, "nextButton")  + "</button>");
     if (this.lockNextButtonQueued) {
     	buttonNext.attr('disabled', 'disabled');
@@ -67,8 +67,10 @@ PageTemplateRenderer.prototype.renderNavigation = function(_parentId) {
     renderedSomething = true;
   }
   
-  if (!renderedSomething) {
-    $('#' + this.navigationId).remove();
+  if (renderedSomething) {
+    $('#' + this.navigationId).show();
+  } else {
+    $('#' + this.navigationId).hide();
   }
   this.lockNextButtonQueued = false;
 };

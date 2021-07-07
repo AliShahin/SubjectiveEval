@@ -194,7 +194,8 @@ PairedComparisonPage.prototype.render = function (_parent) {
   //     confidenceRadio.enable()
   // });
   radioChoice.find("input[type='radio']").bind("change", (function(){
-      this.pageTemplateRenderer.unlockNextButton();
+      // this.pageTemplateRenderer.unlockNextButton();
+      this.pageTemplateRenderer.pageManager.nextPage();
 //       if (timeout !== null) {
 //         clearTimeout(timeout);   
 //       }
