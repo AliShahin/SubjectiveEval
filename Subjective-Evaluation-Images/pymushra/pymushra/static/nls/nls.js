@@ -80,7 +80,7 @@ nls['fr']['very'] = "Dégradation très gênante";
 
 // captions Paired Comparison AB/ABN
 // nls['en']['quest'] = "Which among A, B sounds closer to reference?";
-nls['en']['quest'] = "Are there any differences between the visual quality of these two images?";
+nls['en']['quest'] = "Are there any differences between these two filtered images?";
 nls['de']['quest'] = "Welches Stück ist die Referenz?";
 nls['fr']['quest'] = "Quel item est la référence?";
 
