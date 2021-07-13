@@ -237,6 +237,7 @@ def collect(testid=''):
             payload = json.loads(request.form['sessionJSON'])
             payload = casting.cast_recursively(payload)
 
+
             insert = casting.json_to_dict(payload)
 
             user_ip = get_user_ip()
@@ -273,14 +274,14 @@ def collect(testid=''):
             subjective_eval_ever = []
 
             for i in range(len(payload['trials'][0]['responses'])):
-                uuids.append(uuid)
-                ips.append(user_ip)
+                # uuids.append(uuid)
+                # ips.append(user_ip)
                 configs.append(config)
-                name.append(participant_metadata[0])
-                email.append(participant_metadata[1])
-                age.append(participant_metadata[2])
-                gender.append(participant_metadata[3])
-                subjective_eval_ever.append(participant_metadata[4])
+                # name.append(participant_metadata[0])
+                # email.append(participant_metadata[1])
+                # age.append(participant_metadata[2])
+                # gender.append(participant_metadata[3])
+                # subjective_eval_ever.append(participant_metadata[4])
                 left_image.append(
                      payload['trials'][0]['responses'][i]['left_image'])
                 right_image.append(
