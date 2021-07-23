@@ -98,7 +98,7 @@ PairedComparisonPage.prototype.render = function (_parent) {
   if (content) {
     timeout = setTimeout(function() {
         p.children().hide();
-    }, 4000)
+    }, 7000)
   }
 
   var table = $("<table id='main' align='center'></table>");
