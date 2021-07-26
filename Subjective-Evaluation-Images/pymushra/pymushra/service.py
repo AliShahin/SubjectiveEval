@@ -216,7 +216,7 @@ def finishedExperiments():
     return render_template('finished.html', left_files=left_files, done_files=done_files)
 
 @app.route('/results')
-@only_admin_allowlist
+#@only_admin_allowlist
 def results():
         try:
             df_html = pd.read_csv(csv_database).to_html()
@@ -442,7 +442,7 @@ def admin_stats(testid, stats_type='mushra'):
 @app.route(
     '/admin/show/<testid>/<statstype>.<filetype>',
     defaults={'show_as': 'text'})
-@only_admin_allowlist
+#@only_admin_allowlist
 def download(testid, show_as, statstype=None, filetype='csv'):
     allowed_types = ('csv', 'pickle', 'json', 'html')
 

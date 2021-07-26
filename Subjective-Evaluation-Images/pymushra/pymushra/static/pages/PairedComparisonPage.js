@@ -95,7 +95,7 @@ PairedComparisonPage.prototype.render = function (_parent) {
   div.append(p);
 
   var timeout = null
-  if (content) {
+  if (this.pageManager.getPageIndex() > 1 && content) {
     timeout = setTimeout(function() {
         p.children().hide();
     }, 7000)
