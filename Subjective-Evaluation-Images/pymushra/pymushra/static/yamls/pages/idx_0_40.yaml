@@ -4,19 +4,6 @@ pages:
   id: first_page
   name: Welcome to image similarity evaluation.
   type: generic
-- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00008442.png"
-    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/ND_FF/ILSVRC2012_val_00008442.png"
-    class="tempimage">  <img src="static/imgs/Results/ND_Filter/ILSVRC2012_val_00008442.png"
-    class="tempimage">
-  id: trialAB2
-  name: null
-  reference: ''
-  showWaveform: false
-  stimuli:
-    C1: ND_FFILSVRC2012_val_00008442.png
-    C2: ND_FilterILSVRC2012_val_00008442.png
-  type: paired_comparison
-  unforced: null
 - content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00000623.png"
     class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/LD_FF/ILSVRC2012_val_00000623.png"
     class="tempimage">  <img src="static/imgs/Results/LD_Filter/ILSVRC2012_val_00000623.png"
@@ -28,799 +15,6 @@ pages:
   stimuli:
     C1: LD_FFILSVRC2012_val_00000623.png
     C2: LD_FilterILSVRC2012_val_00000623.png
-  type: paired_comparison
-  unforced: null
-- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00041015.png"
-    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/LD_FF/ILSVRC2012_val_00041015.png"
-    class="tempimage">  <img src="static/imgs/Results/LD_Filter/ILSVRC2012_val_00041015.png"
-    class="tempimage">
-  id: trialAB2
-  name: null
-  reference: ''
-  showWaveform: false
-  stimuli:
-    C1: LD_FFILSVRC2012_val_00041015.png
-    C2: LD_FilterILSVRC2012_val_00041015.png
-  type: paired_comparison
-  unforced: null
-- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00022744.png"
-    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/L_Filter/ILSVRC2012_val_00022744.png"
-    class="tempimage">  <img src="static/imgs/Results/L_FF/ILSVRC2012_val_00022744.png"
-    class="tempimage">
-  id: trialAB2
-  name: null
-  reference: ''
-  showWaveform: false
-  stimuli:
-    C1: L_FilterILSVRC2012_val_00022744.png
-    C2: L_FFILSVRC2012_val_00022744.png
-  type: paired_comparison
-  unforced: null
-- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00032714.png"
-    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/L_Filter/ILSVRC2012_val_00032714.png"
-    class="tempimage">  <img src="static/imgs/Results/L_FF/ILSVRC2012_val_00032714.png"
-    class="tempimage">
-  id: trialAB2
-  name: null
-  reference: ''
-  showWaveform: false
-  stimuli:
-    C1: L_FilterILSVRC2012_val_00032714.png
-    C2: L_FFILSVRC2012_val_00032714.png
-  type: paired_comparison
-  unforced: null
-- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00006866.png"
-    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/LD_Filter/ILSVRC2012_val_00006866.png"
-    class="tempimage">  <img src="static/imgs/Results/LD_FF/ILSVRC2012_val_00006866.png"
-    class="tempimage">
-  id: trialAB2
-  name: null
-  reference: ''
-  showWaveform: false
-  stimuli:
-    C1: LD_FilterILSVRC2012_val_00006866.png
-    C2: LD_FFILSVRC2012_val_00006866.png
-  type: paired_comparison
-  unforced: null
-- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00045619.png"
-    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/G_Filter/ILSVRC2012_val_00045619.png"
-    class="tempimage">  <img src="static/imgs/Results/G_FF/ILSVRC2012_val_00045619.png"
-    class="tempimage">
-  id: trialAB2
-  name: null
-  reference: ''
-  showWaveform: false
-  stimuli:
-    C1: G_FilterILSVRC2012_val_00045619.png
-    C2: G_FFILSVRC2012_val_00045619.png
-  type: paired_comparison
-  unforced: null
-- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00019850.png"
-    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/ND_FF/ILSVRC2012_val_00019850.png"
-    class="tempimage">  <img src="static/imgs/Results/ND_Filter/ILSVRC2012_val_00019850.png"
-    class="tempimage">
-  id: trialAB2
-  name: null
-  reference: ''
-  showWaveform: false
-  stimuli:
-    C1: ND_FFILSVRC2012_val_00019850.png
-    C2: ND_FilterILSVRC2012_val_00019850.png
-  type: paired_comparison
-  unforced: null
-- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00005079.png"
-    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/LD_FF/ILSVRC2012_val_00005079.png"
-    class="tempimage">  <img src="static/imgs/Results/LD_Filter/ILSVRC2012_val_00005079.png"
-    class="tempimage">
-  id: trialAB2
-  name: null
-  reference: ''
-  showWaveform: false
-  stimuli:
-    C1: LD_FFILSVRC2012_val_00005079.png
-    C2: LD_FilterILSVRC2012_val_00005079.png
-  type: paired_comparison
-  unforced: null
-- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00004140.png"
-    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/L_FF/ILSVRC2012_val_00004140.png"
-    class="tempimage">  <img src="static/imgs/Results/L_Filter/ILSVRC2012_val_00004140.png"
-    class="tempimage">
-  id: trialAB2
-  name: null
-  reference: ''
-  showWaveform: false
-  stimuli:
-    C1: L_FFILSVRC2012_val_00004140.png
-    C2: L_FilterILSVRC2012_val_00004140.png
-  type: paired_comparison
-  unforced: null
-- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00023826.png"
-    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/LD_Filter/ILSVRC2012_val_00023826.png"
-    class="tempimage">  <img src="static/imgs/Results/LD_FF/ILSVRC2012_val_00023826.png"
-    class="tempimage">
-  id: trialAB2
-  name: null
-  reference: ''
-  showWaveform: false
-  stimuli:
-    C1: LD_FilterILSVRC2012_val_00023826.png
-    C2: LD_FFILSVRC2012_val_00023826.png
-  type: paired_comparison
-  unforced: null
-- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00024040.png"
-    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/G_FF/ILSVRC2012_val_00024040.png"
-    class="tempimage">  <img src="static/imgs/Results/G_Filter/ILSVRC2012_val_00024040.png"
-    class="tempimage">
-  id: trialAB2
-  name: null
-  reference: ''
-  showWaveform: false
-  stimuli:
-    C1: G_FFILSVRC2012_val_00024040.png
-    C2: G_FilterILSVRC2012_val_00024040.png
-  type: paired_comparison
-  unforced: null
-- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00022744.png"
-    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/L_Filter/ILSVRC2012_val_00022744.png"
-    class="tempimage">  <img src="static/imgs/Results/L_FF/ILSVRC2012_val_00022744.png"
-    class="tempimage">
-  id: trialAB2
-  name: null
-  reference: ''
-  showWaveform: false
-  stimuli:
-    C1: L_FilterILSVRC2012_val_00022744.png
-    C2: L_FFILSVRC2012_val_00022744.png
-  type: paired_comparison
-  unforced: null  
-- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00047584.png"
-    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/LD_FF/ILSVRC2012_val_00047584.png"
-    class="tempimage">  <img src="static/imgs/Results/LD_Filter/ILSVRC2012_val_00047584.png"
-    class="tempimage">
-  id: trialAB2
-  name: null
-  reference: ''
-  showWaveform: false
-  stimuli:
-    C1: LD_FFILSVRC2012_val_00047584.png
-    C2: LD_FilterILSVRC2012_val_00047584.png
-  type: paired_comparison
-  unforced: null
-- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00018840.png"
-    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/ND_Filter/ILSVRC2012_val_00018840.png"
-    class="tempimage">  <img src="static/imgs/Results/ND_FF/ILSVRC2012_val_00018840.png"
-    class="tempimage">
-  id: trialAB2
-  name: null
-  reference: ''
-  showWaveform: false
-  stimuli:
-    C1: ND_FilterILSVRC2012_val_00018840.png
-    C2: ND_FFILSVRC2012_val_00018840.png
-  type: paired_comparison
-  unforced: null
-- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00042973.png"
-    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/L_Filter/ILSVRC2012_val_00042973.png"
-    class="tempimage">  <img src="static/imgs/Results/L_FF/ILSVRC2012_val_00042973.png"
-    class="tempimage">
-  id: trialAB2
-  name: null
-  reference: ''
-  showWaveform: false
-  stimuli:
-    C1: L_FilterILSVRC2012_val_00042973.png
-    C2: L_FFILSVRC2012_val_00042973.png
-  type: paired_comparison
-  unforced: null  
-- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00007399.png"
-    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/G_FF/ILSVRC2012_val_00007399.png"
-    class="tempimage">  <img src="static/imgs/Results/G_Filter/ILSVRC2012_val_00007399.png"
-    class="tempimage">
-  id: trialAB2
-  name: null
-  reference: ''
-  showWaveform: false
-  stimuli:
-    C1: G_FFILSVRC2012_val_00007399.png
-    C2: G_FilterILSVRC2012_val_00007399.png
-  type: paired_comparison
-  unforced: null
-- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00026322.png"
-    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/LD_FF/ILSVRC2012_val_00026322.png"
-    class="tempimage">  <img src="static/imgs/Results/LD_Filter/ILSVRC2012_val_00026322.png"
-    class="tempimage">
-  id: trialAB2
-  name: null
-  reference: ''
-  showWaveform: false
-  stimuli:
-    C1: LD_FFILSVRC2012_val_00026322.png
-    C2: LD_FilterILSVRC2012_val_00026322.png
-  type: paired_comparison
-  unforced: null
-- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00024331.png"
-    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/G_Filter/ILSVRC2012_val_00024331.png"
-    class="tempimage">  <img src="static/imgs/Results/G_FF/ILSVRC2012_val_00024331.png"
-    class="tempimage">
-  id: trialAB2
-  name: null
-  reference: ''
-  showWaveform: false
-  stimuli:
-    C1: G_FilterILSVRC2012_val_00024331.png
-    C2: G_FFILSVRC2012_val_00024331.png
-  type: paired_comparison
-  unforced: null
-- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00022744.png"
-    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/L_Filter/ILSVRC2012_val_00022744.png"
-    class="tempimage">  <img src="static/imgs/Results/L_FF/ILSVRC2012_val_00022744.png"
-    class="tempimage">
-  id: trialAB2
-  name: null
-  reference: ''
-  showWaveform: false
-  stimuli:
-    C1: L_FilterILSVRC2012_val_00022744.png
-    C2: L_FFILSVRC2012_val_00022744.png
-  type: paired_comparison
-  unforced: null  
-- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00032468.png"
-    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/ND_Filter/ILSVRC2012_val_00032468.png"
-    class="tempimage">  <img src="static/imgs/Results/ND_FF/ILSVRC2012_val_00032468.png"
-    class="tempimage">
-  id: trialAB2
-  name: null
-  reference: ''
-  showWaveform: false
-  stimuli:
-    C1: ND_FilterILSVRC2012_val_00032468.png
-    C2: ND_FFILSVRC2012_val_00032468.png
-  type: paired_comparison
-  unforced: null
-- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00029128.png"
-    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/LD_FF/ILSVRC2012_val_00029128.png"
-    class="tempimage">  <img src="static/imgs/Results/LD_Filter/ILSVRC2012_val_00029128.png"
-    class="tempimage">
-  id: trialAB2
-  name: null
-  reference: ''
-  showWaveform: false
-  stimuli:
-    C1: LD_FFILSVRC2012_val_00029128.png
-    C2: LD_FilterILSVRC2012_val_00029128.png
-  type: paired_comparison
-  unforced: null
-- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00026421.png"
-    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/L_Filter/ILSVRC2012_val_00026421.png"
-    class="tempimage">  <img src="static/imgs/Results/L_FF/ILSVRC2012_val_00026421.png"
-    class="tempimage">
-  id: trialAB2
-  name: null
-  reference: ''
-  showWaveform: false
-  stimuli:
-    C1: L_FilterILSVRC2012_val_00026421.png
-    C2: L_FFILSVRC2012_val_00026421.png
-  type: paired_comparison
-  unforced: null
-- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00047584.png"
-    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/LD_FF/ILSVRC2012_val_00047584.png"
-    class="tempimage">  <img src="static/imgs/Results/LD_Filter/ILSVRC2012_val_00047584.png"
-    class="tempimage">
-  id: trialAB2
-  name: null
-  reference: ''
-  showWaveform: false
-  stimuli:
-    C1: LD_FFILSVRC2012_val_00047584.png
-    C2: LD_FilterILSVRC2012_val_00047584.png
-  type: paired_comparison
-  unforced: null
-- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00024655.png"
-    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/G_Filter/ILSVRC2012_val_00024655.png"
-    class="tempimage">  <img src="static/imgs/Results/G_FF/ILSVRC2012_val_00024655.png"
-    class="tempimage">
-  id: trialAB2
-  name: null
-  reference: ''
-  showWaveform: false
-  stimuli:
-    C1: G_FilterILSVRC2012_val_00024655.png
-    C2: G_FFILSVRC2012_val_00024655.png
-  type: paired_comparison
-  unforced: null
-- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00031761.png"
-    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/L_Filter/ILSVRC2012_val_00031761.png"
-    class="tempimage">  <img src="static/imgs/Results/L_FF/ILSVRC2012_val_00031761.png"
-    class="tempimage">
-  id: trialAB2
-  name: null
-  reference: ''
-  showWaveform: false
-  stimuli:
-    C1: L_FilterILSVRC2012_val_00031761.png
-    C2: L_FFILSVRC2012_val_00031761.png
-  type: paired_comparison
-  unforced: null
-- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00008442.png"
-    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/L_FF/ILSVRC2012_val_00008442.png"
-    class="tempimage">  <img src="static/imgs/Results/L_Filter/ILSVRC2012_val_00008442.png"
-    class="tempimage">
-  id: trialAB2
-  name: null
-  reference: ''
-  showWaveform: false
-  stimuli:
-    C1: L_FFILSVRC2012_val_00008442.png
-    C2: L_FilterILSVRC2012_val_00008442.png
-  type: paired_comparison
-  unforced: null
-- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00032468.png"
-    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/ND_Filter/ILSVRC2012_val_00032468.png"
-    class="tempimage">  <img src="static/imgs/Results/ND_FF/ILSVRC2012_val_00032468.png"
-    class="tempimage">
-  id: trialAB2
-  name: null
-  reference: ''
-  showWaveform: false
-  stimuli:
-    C1: ND_FilterILSVRC2012_val_00032468.png
-    C2: ND_FFILSVRC2012_val_00032468.png
-  type: paired_comparison
-  unforced: null
-- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00044204.png"
-    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/ND_Filter/ILSVRC2012_val_00044204.png"
-    class="tempimage">  <img src="static/imgs/Results/ND_FF/ILSVRC2012_val_00044204.png"
-    class="tempimage">
-  id: trialAB2
-  name: null
-  reference: ''
-  showWaveform: false
-  stimuli:
-    C1: ND_FilterILSVRC2012_val_00044204.png
-    C2: ND_FFILSVRC2012_val_00044204.png
-  type: paired_comparison
-  unforced: null
-- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00015097.png"
-    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/ND_FF/ILSVRC2012_val_00015097.png"
-    class="tempimage">  <img src="static/imgs/Results/ND_Filter/ILSVRC2012_val_00015097.png"
-    class="tempimage">
-  id: trialAB2
-  name: null
-  reference: ''
-  showWaveform: false
-  stimuli:
-    C1: ND_FFILSVRC2012_val_00015097.png
-    C2: ND_FilterILSVRC2012_val_00015097.png
-  type: paired_comparison
-  unforced: null
-- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00026982.png"
-    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/L_FF/ILSVRC2012_val_00026982.png"
-    class="tempimage">  <img src="static/imgs/Results/L_Filter/ILSVRC2012_val_00026982.png"
-    class="tempimage">
-  id: trialAB2
-  name: null
-  reference: ''
-  showWaveform: false
-  stimuli:
-    C1: L_FFILSVRC2012_val_00026982.png
-    C2: L_FilterILSVRC2012_val_00026982.png
-  type: paired_comparison
-  unforced: null
-- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00001152.png"
-    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/ND_FF/ILSVRC2012_val_00001152.png"
-    class="tempimage">  <img src="static/imgs/Results/ND_Filter/ILSVRC2012_val_00001152.png"
-    class="tempimage">
-  id: trialAB2
-  name: null
-  reference: ''
-  showWaveform: false
-  stimuli:
-    C1: ND_FFILSVRC2012_val_00001152.png
-    C2: ND_FilterILSVRC2012_val_00001152.png
-  type: paired_comparison
-  unforced: null
-- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00001923.png"
-    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/G_FF/ILSVRC2012_val_00001923.png"
-    class="tempimage">  <img src="static/imgs/Results/G_Filter/ILSVRC2012_val_00001923.png"
-    class="tempimage">
-  id: trialAB2
-  name: null
-  reference: ''
-  showWaveform: false
-  stimuli:
-    C1: G_FFILSVRC2012_val_00001923.png
-    C2: G_FilterILSVRC2012_val_00001923.png
-  type: paired_comparison
-  unforced: null
-- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00040566.png"
-    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/ND_Filter/ILSVRC2012_val_00040566.png"
-    class="tempimage">  <img src="static/imgs/Results/ND_FF/ILSVRC2012_val_00040566.png"
-    class="tempimage">
-  id: trialAB2
-  name: null
-  reference: ''
-  showWaveform: false
-  stimuli:
-    C1: ND_FilterILSVRC2012_val_00040566.png
-    C2: ND_FFILSVRC2012_val_00040566.png
-  type: paired_comparison
-  unforced: null
-- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00030537.png"
-    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/ND_FF/ILSVRC2012_val_00030537.png"
-    class="tempimage">  <img src="static/imgs/Results/ND_Filter/ILSVRC2012_val_00030537.png"
-    class="tempimage">
-  id: trialAB2
-  name: null
-  reference: ''
-  showWaveform: false
-  stimuli:
-    C1: ND_FFILSVRC2012_val_00030537.png
-    C2: ND_FilterILSVRC2012_val_00030537.png
-  type: paired_comparison
-  unforced: null
-- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00010031.png"
-    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/G_FF/ILSVRC2012_val_00010031.png"
-    class="tempimage">  <img src="static/imgs/Results/G_Filter/ILSVRC2012_val_00010031.png"
-    class="tempimage">
-  id: trialAB2
-  name: null
-  reference: ''
-  showWaveform: false
-  stimuli:
-    C1: G_FFILSVRC2012_val_00010031.png
-    C2: G_FilterILSVRC2012_val_00010031.png
-  type: paired_comparison
-  unforced: null
-- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00021879.png"
-    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/L_Filter/ILSVRC2012_val_00021879.png"
-    class="tempimage">  <img src="static/imgs/Results/L_FF/ILSVRC2012_val_00021879.png"
-    class="tempimage">
-  id: trialAB2
-  name: null
-  reference: ''
-  showWaveform: false
-  stimuli:
-    C1: L_FilterILSVRC2012_val_00021879.png
-    C2: L_FFILSVRC2012_val_00021879.png
-  type: paired_comparison
-  unforced: null
-- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00019850.png"
-    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/ND_FF/ILSVRC2012_val_00019850.png"
-    class="tempimage">  <img src="static/imgs/Results/ND_Filter/ILSVRC2012_val_00019850.png"
-    class="tempimage">
-  id: trialAB2
-  name: null
-  reference: ''
-  showWaveform: false
-  stimuli:
-    C1: ND_FFILSVRC2012_val_00019850.png
-    C2: ND_FilterILSVRC2012_val_00019850.png
-  type: paired_comparison
-  unforced: null
-- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00037030.png"
-    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/G_FF/ILSVRC2012_val_00037030.png"
-    class="tempimage">  <img src="static/imgs/Results/G_Filter/ILSVRC2012_val_00037030.png"
-    class="tempimage">
-  id: trialAB2
-  name: null
-  reference: ''
-  showWaveform: false
-  stimuli:
-    C1: G_FFILSVRC2012_val_00037030.png
-    C2: G_FilterILSVRC2012_val_00037030.png
-  type: paired_comparison
-  unforced: null
-- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00042538.png"
-    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/L_FF/ILSVRC2012_val_00042538.png"
-    class="tempimage">  <img src="static/imgs/Results/L_Filter/ILSVRC2012_val_00042538.png"
-    class="tempimage">
-  id: trialAB2
-  name: null
-  reference: ''
-  showWaveform: false
-  stimuli:
-    C1: L_FFILSVRC2012_val_00042538.png
-    C2: L_FilterILSVRC2012_val_00042538.png
-  type: paired_comparison
-  unforced: null
-- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00037322.png"
-    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/ND_Filter/ILSVRC2012_val_00037322.png"
-    class="tempimage">  <img src="static/imgs/Results/ND_FF/ILSVRC2012_val_00037322.png"
-    class="tempimage">
-  id: trialAB2
-  name: null
-  reference: ''
-  showWaveform: false
-  stimuli:
-    C1: ND_FilterILSVRC2012_val_00037322.png
-    C2: ND_FFILSVRC2012_val_00037322.png
-  type: paired_comparison
-  unforced: null
-- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00045401.png"
-    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/LD_Filter/ILSVRC2012_val_00045401.png"
-    class="tempimage">  <img src="static/imgs/Results/LD_FF/ILSVRC2012_val_00045401.png"
-    class="tempimage">
-  id: trialAB2
-  name: null
-  reference: ''
-  showWaveform: false
-  stimuli:
-    C1: LD_FilterILSVRC2012_val_00045401.png
-    C2: LD_FFILSVRC2012_val_00045401.png
-  type: paired_comparison
-  unforced: null
-- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00032468.png"
-    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/ND_Filter/ILSVRC2012_val_00032468.png"
-    class="tempimage">  <img src="static/imgs/Results/ND_FF/ILSVRC2012_val_00032468.png"
-    class="tempimage">
-  id: trialAB2
-  name: null
-  reference: ''
-  showWaveform: false
-  stimuli:
-    C1: ND_FilterILSVRC2012_val_00032468.png
-    C2: ND_FFILSVRC2012_val_00032468.png
-  type: paired_comparison
-  unforced: null
-- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00002652.png"
-    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/G_Filter/ILSVRC2012_val_00002652.png"
-    class="tempimage">  <img src="static/imgs/Results/G_FF/ILSVRC2012_val_00002652.png"
-    class="tempimage">
-  id: trialAB2
-  name: null
-  reference: ''
-  showWaveform: false
-  stimuli:
-    C1: G_FilterILSVRC2012_val_00002652.png
-    C2: G_FFILSVRC2012_val_00002652.png
-  type: paired_comparison
-  unforced: null
-- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00029900.png"
-    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/G_Filter/ILSVRC2012_val_00029900.png"
-    class="tempimage">  <img src="static/imgs/Results/G_FF/ILSVRC2012_val_00029900.png"
-    class="tempimage">
-  id: trialAB2
-  name: null
-  reference: ''
-  showWaveform: false
-  stimuli:
-    C1: G_FilterILSVRC2012_val_00029900.png
-    C2: G_FFILSVRC2012_val_00029900.png
-  type: paired_comparison
-  unforced: null  
-- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00011152.png"
-    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/G_Filter/ILSVRC2012_val_00011152.png"
-    class="tempimage">  <img src="static/imgs/Results/G_FF/ILSVRC2012_val_00011152.png"
-    class="tempimage">
-  id: trialAB2
-  name: null
-  reference: ''
-  showWaveform: false
-  stimuli:
-    C1: G_FilterILSVRC2012_val_00011152.png
-    C2: G_FFILSVRC2012_val_00011152.png
-  type: paired_comparison
-  unforced: null
-- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00047584.png"
-    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/LD_FF/ILSVRC2012_val_00047584.png"
-    class="tempimage">  <img src="static/imgs/Results/LD_Filter/ILSVRC2012_val_00047584.png"
-    class="tempimage">
-  id: trialAB2
-  name: null
-  reference: ''
-  showWaveform: false
-  stimuli:
-    C1: LD_FFILSVRC2012_val_00047584.png
-    C2: LD_FilterILSVRC2012_val_00047584.png
-  type: paired_comparison
-  unforced: null
-- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00028871.png"
-    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/L_Filter/ILSVRC2012_val_00028871.png"
-    class="tempimage">  <img src="static/imgs/Results/L_FF/ILSVRC2012_val_00028871.png"
-    class="tempimage">
-  id: trialAB2
-  name: null
-  reference: ''
-  showWaveform: false
-  stimuli:
-    C1: L_FilterILSVRC2012_val_00028871.png
-    C2: L_FFILSVRC2012_val_00028871.png
-  type: paired_comparison
-  unforced: null
-- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00040833.png"
-    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/L_FF/ILSVRC2012_val_00040833.png"
-    class="tempimage">  <img src="static/imgs/Results/L_Filter/ILSVRC2012_val_00040833.png"
-    class="tempimage">
-  id: trialAB2
-  name: null
-  reference: ''
-  showWaveform: false
-  stimuli:
-    C1: L_FFILSVRC2012_val_00040833.png
-    C2: L_FilterILSVRC2012_val_00040833.png
-  type: paired_comparison
-  unforced: null
-- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00040200.png"
-    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/LD_Filter/ILSVRC2012_val_00040200.png"
-    class="tempimage">  <img src="static/imgs/Results/LD_FF/ILSVRC2012_val_00040200.png"
-    class="tempimage">
-  id: trialAB2
-  name: null
-  reference: ''
-  showWaveform: false
-  stimuli:
-    C1: LD_FilterILSVRC2012_val_00040200.png
-    C2: LD_FFILSVRC2012_val_00040200.png
-  type: paired_comparison
-  unforced: null
-- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00040041.png"
-    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/LD_FF/ILSVRC2012_val_00040041.png"
-    class="tempimage">  <img src="static/imgs/Results/LD_Filter/ILSVRC2012_val_00040041.png"
-    class="tempimage">
-  id: trialAB2
-  name: null
-  reference: ''
-  showWaveform: false
-  stimuli:
-    C1: LD_FFILSVRC2012_val_00040041.png
-    C2: LD_FilterILSVRC2012_val_00040041.png
-  type: paired_comparison
-  unforced: null
-- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00036015.png"
-    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/ND_Filter/ILSVRC2012_val_00036015.png"
-    class="tempimage">  <img src="static/imgs/Results/ND_FF/ILSVRC2012_val_00036015.png"
-    class="tempimage">
-  id: trialAB2
-  name: null
-  reference: ''
-  showWaveform: false
-  stimuli:
-    C1: ND_FilterILSVRC2012_val_00036015.png
-    C2: ND_FFILSVRC2012_val_00036015.png
-  type: paired_comparison
-  unforced: null
-- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00028736.png"
-    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/G_FF/ILSVRC2012_val_00028736.png"
-    class="tempimage">  <img src="static/imgs/Results/G_Filter/ILSVRC2012_val_00028736.png"
-    class="tempimage">
-  id: trialAB2
-  name: null
-  reference: ''
-  showWaveform: false
-  stimuli:
-    C1: G_FFILSVRC2012_val_00028736.png
-    C2: G_FilterILSVRC2012_val_00028736.png
-  type: paired_comparison
-  unforced: null
-- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00021917.png"
-    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/L_Filter/ILSVRC2012_val_00021917.png"
-    class="tempimage">  <img src="static/imgs/Results/L_FF/ILSVRC2012_val_00021917.png"
-    class="tempimage">
-  id: trialAB2
-  name: null
-  reference: ''
-  showWaveform: false
-  stimuli:
-    C1: L_FilterILSVRC2012_val_00021917.png
-    C2: L_FFILSVRC2012_val_00021917.png
-  type: paired_comparison
-  unforced: null
-- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00005811.png"
-    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/ND_Filter/ILSVRC2012_val_00005811.png"
-    class="tempimage">  <img src="static/imgs/Results/ND_FF/ILSVRC2012_val_00005811.png"
-    class="tempimage">
-  id: trialAB2
-  name: null
-  reference: ''
-  showWaveform: false
-  stimuli:
-    C1: ND_FilterILSVRC2012_val_00005811.png
-    C2: ND_FFILSVRC2012_val_00005811.png
-  type: paired_comparison
-  unforced: null
-- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00030489.png"
-    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/G_FF/ILSVRC2012_val_00030489.png"
-    class="tempimage">  <img src="static/imgs/Results/G_Filter/ILSVRC2012_val_00030489.png"
-    class="tempimage">
-  id: trialAB2
-  name: null
-  reference: ''
-  showWaveform: false
-  stimuli:
-    C1: G_FFILSVRC2012_val_00030489.png
-    C2: G_FilterILSVRC2012_val_00030489.png
-  type: paired_comparison
-  unforced: null
-- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00029900.png"
-    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/G_Filter/ILSVRC2012_val_00029900.png"
-    class="tempimage">  <img src="static/imgs/Results/G_FF/ILSVRC2012_val_00029900.png"
-    class="tempimage">
-  id: trialAB2
-  name: null
-  reference: ''
-  showWaveform: false
-  stimuli:
-    C1: G_FilterILSVRC2012_val_00029900.png
-    C2: G_FFILSVRC2012_val_00029900.png
-  type: paired_comparison
-  unforced: null
-- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00049985.png"
-    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/L_Filter/ILSVRC2012_val_00049985.png"
-    class="tempimage">  <img src="static/imgs/Results/L_FF/ILSVRC2012_val_00049985.png"
-    class="tempimage">
-  id: trialAB2
-  name: null
-  reference: ''
-  showWaveform: false
-  stimuli:
-    C1: L_FilterILSVRC2012_val_00049985.png
-    C2: L_FFILSVRC2012_val_00049985.png
-  type: paired_comparison
-  unforced: null
-- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00019494.png"
-    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/LD_FF/ILSVRC2012_val_00019494.png"
-    class="tempimage">  <img src="static/imgs/Results/LD_Filter/ILSVRC2012_val_00019494.png"
-    class="tempimage">
-  id: trialAB2
-  name: null
-  reference: ''
-  showWaveform: false
-  stimuli:
-    C1: LD_FFILSVRC2012_val_00019494.png
-    C2: LD_FilterILSVRC2012_val_00019494.png
-  type: paired_comparison
-  unforced: null
-- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00013165.png"
-    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/G_FF/ILSVRC2012_val_00013165.png"
-    class="tempimage">  <img src="static/imgs/Results/G_Filter/ILSVRC2012_val_00013165.png"
-    class="tempimage">
-  id: trialAB2
-  name: null
-  reference: ''
-  showWaveform: false
-  stimuli:
-    C1: G_FFILSVRC2012_val_00013165.png
-    C2: G_FilterILSVRC2012_val_00013165.png
-  type: paired_comparison
-  unforced: null
-- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00018669.png"
-    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/L_Filter/ILSVRC2012_val_00018669.png"
-    class="tempimage">  <img src="static/imgs/Results/L_FF/ILSVRC2012_val_00018669.png"
-    class="tempimage">
-  id: trialAB2
-  name: null
-  reference: ''
-  showWaveform: false
-  stimuli:
-    C1: L_FilterILSVRC2012_val_00018669.png
-    C2: L_FFILSVRC2012_val_00018669.png
-  type: paired_comparison
-  unforced: null
-- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00033927.png"
-    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/ND_FF/ILSVRC2012_val_00033927.png"
-    class="tempimage">  <img src="static/imgs/Results/ND_Filter/ILSVRC2012_val_00033927.png"
-    class="tempimage">
-  id: trialAB2
-  name: null
-  reference: ''
-  showWaveform: false
-  stimuli:
-    C1: ND_FFILSVRC2012_val_00033927.png
-    C2: ND_FilterILSVRC2012_val_00033927.png
-  type: paired_comparison
-  unforced: null
-- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00018720.png"
-    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/LD_FF/ILSVRC2012_val_00018720.png"
-    class="tempimage">  <img src="static/imgs/Results/LD_Filter/ILSVRC2012_val_00018720.png"
-    class="tempimage">
-  id: trialAB2
-  name: null
-  reference: ''
-  showWaveform: false
-  stimuli:
-    C1: LD_FFILSVRC2012_val_00018720.png
-    C2: LD_FilterILSVRC2012_val_00018720.png
   type: paired_comparison
   unforced: null
 - content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00010917.png"
@@ -836,43 +30,355 @@ pages:
     C2: LD_FFILSVRC2012_val_00010917.png
   type: paired_comparison
   unforced: null
-- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00019616.png"
-    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/ND_FF/ILSVRC2012_val_00019616.png"
-    class="tempimage">  <img src="static/imgs/Results/ND_Filter/ILSVRC2012_val_00019616.png"
+- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00028871.png"
+    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/L_FF/ILSVRC2012_val_00028871.png"
+    class="tempimage">  <img src="static/imgs/Results/L_Filter/ILSVRC2012_val_00028871.png"
     class="tempimage">
   id: trialAB2
   name: null
   reference: ''
   showWaveform: false
   stimuli:
-    C1: ND_FFILSVRC2012_val_00019616.png
-    C2: ND_FilterILSVRC2012_val_00019616.png
+    C1: L_FFILSVRC2012_val_00028871.png
+    C2: L_FilterILSVRC2012_val_00028871.png
   type: paired_comparison
   unforced: null
-- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00029900.png"
-    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/G_Filter/ILSVRC2012_val_00029900.png"
-    class="tempimage">  <img src="static/imgs/Results/G_FF/ILSVRC2012_val_00029900.png"
+- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00032714.png"
+    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/L_FF/ILSVRC2012_val_00032714.png"
+    class="tempimage">  <img src="static/imgs/Results/L_Filter/ILSVRC2012_val_00032714.png"
     class="tempimage">
   id: trialAB2
   name: null
   reference: ''
   showWaveform: false
   stimuli:
-    C1: G_FilterILSVRC2012_val_00029900.png
-    C2: G_FFILSVRC2012_val_00029900.png
+    C1: L_FFILSVRC2012_val_00032714.png
+    C2: L_FilterILSVRC2012_val_00032714.png
   type: paired_comparison
-  unforced: null  
-- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00019850.png"
-    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/ND_FF/ILSVRC2012_val_00019850.png"
-    class="tempimage">  <img src="static/imgs/Results/ND_Filter/ILSVRC2012_val_00019850.png"
+  unforced: null
+- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00006866.png"
+    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/LD_FF/ILSVRC2012_val_00006866.png"
+    class="tempimage">  <img src="static/imgs/Results/LD_Filter/ILSVRC2012_val_00006866.png"
     class="tempimage">
   id: trialAB2
   name: null
   reference: ''
   showWaveform: false
   stimuli:
-    C1: ND_FFILSVRC2012_val_00019850.png
-    C2: ND_FilterILSVRC2012_val_00019850.png
+    C1: LD_FFILSVRC2012_val_00006866.png
+    C2: LD_FilterILSVRC2012_val_00006866.png
+  type: paired_comparison
+  unforced: null
+- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00022744.png"
+    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/L_FF/ILSVRC2012_val_00022744.png"
+    class="tempimage">  <img src="static/imgs/Results/L_Filter/ILSVRC2012_val_00022744.png"
+    class="tempimage">
+  id: trialAB2
+  name: null
+  reference: ''
+  showWaveform: false
+  stimuli:
+    C1: L_FFILSVRC2012_val_00022744.png
+    C2: L_FilterILSVRC2012_val_00022744.png
+  type: paired_comparison
+  unforced: null
+- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00002652.png"
+    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/G_Filter/ILSVRC2012_val_00002652.png"
+    class="tempimage">  <img src="static/imgs/Results/G_FF/ILSVRC2012_val_00002652.png"
+    class="tempimage">
+  id: trialAB2
+  name: null
+  reference: ''
+  showWaveform: false
+  stimuli:
+    C1: G_FilterILSVRC2012_val_00002652.png
+    C2: G_FFILSVRC2012_val_00002652.png
+  type: paired_comparison
+  unforced: null
+- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00008442.png"
+    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/ND_Filter/ILSVRC2012_val_00008442.png"
+    class="tempimage">  <img src="static/imgs/Results/ND_FF/ILSVRC2012_val_00008442.png"
+    class="tempimage">
+  id: trialAB2
+  name: null
+  reference: ''
+  showWaveform: false
+  stimuli:
+    C1: ND_FilterILSVRC2012_val_00008442.png
+    C2: ND_FFILSVRC2012_val_00008442.png
+  type: paired_comparison
+  unforced: null
+- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00042538.png"
+    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/L_FF/ILSVRC2012_val_00042538.png"
+    class="tempimage">  <img src="static/imgs/Results/L_Filter/ILSVRC2012_val_00042538.png"
+    class="tempimage">
+  id: trialAB2
+  name: null
+  reference: ''
+  showWaveform: false
+  stimuli:
+    C1: L_FFILSVRC2012_val_00042538.png
+    C2: L_FilterILSVRC2012_val_00042538.png
+  type: paired_comparison
+  unforced: null
+- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00000623.png"
+    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/LD_FF/ILSVRC2012_val_00000623.png"
+    class="tempimage">  <img src="static/imgs/Results/LD_Filter/ILSVRC2012_val_00000623.png"
+    class="tempimage">
+  id: trialAB2
+  name: null
+  reference: ''
+  showWaveform: false
+  stimuli:
+    C1: LD_FFILSVRC2012_val_00000623.png
+    C2: LD_FilterILSVRC2012_val_00000623.png
+  type: paired_comparison
+  unforced: null
+- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00037322.png"
+    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/ND_FF/ILSVRC2012_val_00037322.png"
+    class="tempimage">  <img src="static/imgs/Results/ND_Filter/ILSVRC2012_val_00037322.png"
+    class="tempimage">
+  id: trialAB2
+  name: null
+  reference: ''
+  showWaveform: false
+  stimuli:
+    C1: ND_FFILSVRC2012_val_00037322.png
+    C2: ND_FilterILSVRC2012_val_00037322.png
+  type: paired_comparison
+  unforced: null
+- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00036015.png"
+    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/ND_FF/ILSVRC2012_val_00036015.png"
+    class="tempimage">  <img src="static/imgs/Results/ND_Filter/ILSVRC2012_val_00036015.png"
+    class="tempimage">
+  id: trialAB2
+  name: null
+  reference: ''
+  showWaveform: false
+  stimuli:
+    C1: ND_FFILSVRC2012_val_00036015.png
+    C2: ND_FilterILSVRC2012_val_00036015.png
+  type: paired_comparison
+  unforced: null
+- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00026322.png"
+    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/LD_FF/ILSVRC2012_val_00026322.png"
+    class="tempimage">  <img src="static/imgs/Results/LD_Filter/ILSVRC2012_val_00026322.png"
+    class="tempimage">
+  id: trialAB2
+  name: null
+  reference: ''
+  showWaveform: false
+  stimuli:
+    C1: LD_FFILSVRC2012_val_00026322.png
+    C2: LD_FilterILSVRC2012_val_00026322.png
+  type: paired_comparison
+  unforced: null
+- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00047584.png"
+    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/LD_FF/ILSVRC2012_val_00047584.png"
+    class="tempimage">  <img src="static/imgs/Results/LD_Filter/ILSVRC2012_val_00047584.png"
+    class="tempimage">
+  id: trialAB2
+  name: null
+  reference: ''
+  showWaveform: false
+  stimuli:
+    C1: LD_FFILSVRC2012_val_00047584.png
+    C2: LD_FilterILSVRC2012_val_00047584.png
+  type: paired_comparison
+  unforced: null
+- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00040200.png"
+    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/LD_FF/ILSVRC2012_val_00040200.png"
+    class="tempimage">  <img src="static/imgs/Results/LD_Filter/ILSVRC2012_val_00040200.png"
+    class="tempimage">
+  id: trialAB2
+  name: null
+  reference: ''
+  showWaveform: false
+  stimuli:
+    C1: LD_FFILSVRC2012_val_00040200.png
+    C2: LD_FilterILSVRC2012_val_00040200.png
+  type: paired_comparison
+  unforced: null
+- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00024040.png"
+    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/G_FF/ILSVRC2012_val_00024040.png"
+    class="tempimage">  <img src="static/imgs/Results/G_Filter/ILSVRC2012_val_00024040.png"
+    class="tempimage">
+  id: trialAB2
+  name: null
+  reference: ''
+  showWaveform: false
+  stimuli:
+    C1: G_FFILSVRC2012_val_00024040.png
+    C2: G_FilterILSVRC2012_val_00024040.png
+  type: paired_comparison
+  unforced: null
+- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00022996.png"
+    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/G_FF/ILSVRC2012_val_00022996.png"
+    class="tempimage">  <img src="static/imgs/Results/G_Filter/ILSVRC2012_val_00022996.png"
+    class="tempimage">
+  id: trialAB2
+  name: null
+  reference: ''
+  showWaveform: false
+  stimuli:
+    C1: G_FFILSVRC2012_val_00022996.png
+    C2: G_FilterILSVRC2012_val_00022996.png
+  type: paired_comparison
+  unforced: null
+- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00030537.png"
+    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/ND_FF/ILSVRC2012_val_00030537.png"
+    class="tempimage">  <img src="static/imgs/Results/ND_Filter/ILSVRC2012_val_00030537.png"
+    class="tempimage">
+  id: trialAB2
+  name: null
+  reference: ''
+  showWaveform: false
+  stimuli:
+    C1: ND_FFILSVRC2012_val_00030537.png
+    C2: ND_FilterILSVRC2012_val_00030537.png
+  type: paired_comparison
+  unforced: null
+- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00021879.png"
+    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/L_Filter/ILSVRC2012_val_00021879.png"
+    class="tempimage">  <img src="static/imgs/Results/L_FF/ILSVRC2012_val_00021879.png"
+    class="tempimage">
+  id: trialAB2
+  name: null
+  reference: ''
+  showWaveform: false
+  stimuli:
+    C1: L_FilterILSVRC2012_val_00021879.png
+    C2: L_FFILSVRC2012_val_00021879.png
+  type: paired_comparison
+  unforced: null
+- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00019494.png"
+    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/LD_FF/ILSVRC2012_val_00019494.png"
+    class="tempimage">  <img src="static/imgs/Results/LD_Filter/ILSVRC2012_val_00019494.png"
+    class="tempimage">
+  id: trialAB2
+  name: null
+  reference: ''
+  showWaveform: false
+  stimuli:
+    C1: LD_FFILSVRC2012_val_00019494.png
+    C2: LD_FilterILSVRC2012_val_00019494.png
+  type: paired_comparison
+  unforced: null
+- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00022233.png"
+    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/G_FF/ILSVRC2012_val_00022233.png"
+    class="tempimage">  <img src="static/imgs/Results/G_Filter/ILSVRC2012_val_00022233.png"
+    class="tempimage">
+  id: trialAB2
+  name: null
+  reference: ''
+  showWaveform: false
+  stimuli:
+    C1: G_FFILSVRC2012_val_00022233.png
+    C2: G_FilterILSVRC2012_val_00022233.png
+  type: paired_comparison
+  unforced: null
+- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00032468.png"
+    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/ND_Filter/ILSVRC2012_val_00032468.png"
+    class="tempimage">  <img src="static/imgs/Results/ND_FF/ILSVRC2012_val_00032468.png"
+    class="tempimage">
+  id: trialAB2
+  name: null
+  reference: ''
+  showWaveform: false
+  stimuli:
+    C1: ND_FilterILSVRC2012_val_00032468.png
+    C2: ND_FFILSVRC2012_val_00032468.png
+  type: paired_comparison
+  unforced: null
+- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00040566.png"
+    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/ND_Filter/ILSVRC2012_val_00040566.png"
+    class="tempimage">  <img src="static/imgs/Results/ND_FF/ILSVRC2012_val_00040566.png"
+    class="tempimage">
+  id: trialAB2
+  name: null
+  reference: ''
+  showWaveform: false
+  stimuli:
+    C1: ND_FilterILSVRC2012_val_00040566.png
+    C2: ND_FFILSVRC2012_val_00040566.png
+  type: paired_comparison
+  unforced: null
+- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00018669.png"
+    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/L_FF/ILSVRC2012_val_00018669.png"
+    class="tempimage">  <img src="static/imgs/Results/L_Filter/ILSVRC2012_val_00018669.png"
+    class="tempimage">
+  id: trialAB2
+  name: null
+  reference: ''
+  showWaveform: false
+  stimuli:
+    C1: L_FFILSVRC2012_val_00018669.png
+    C2: L_FilterILSVRC2012_val_00018669.png
+  type: paired_comparison
+  unforced: null
+- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00005811.png"
+    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/ND_Filter/ILSVRC2012_val_00005811.png"
+    class="tempimage">  <img src="static/imgs/Results/ND_FF/ILSVRC2012_val_00005811.png"
+    class="tempimage">
+  id: trialAB2
+  name: null
+  reference: ''
+  showWaveform: false
+  stimuli:
+    C1: ND_FilterILSVRC2012_val_00005811.png
+    C2: ND_FFILSVRC2012_val_00005811.png
+  type: paired_comparison
+  unforced: null
+- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00018720.png"
+    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/LD_Filter/ILSVRC2012_val_00018720.png"
+    class="tempimage">  <img src="static/imgs/Results/LD_FF/ILSVRC2012_val_00018720.png"
+    class="tempimage">
+  id: trialAB2
+  name: null
+  reference: ''
+  showWaveform: false
+  stimuli:
+    C1: LD_FilterILSVRC2012_val_00018720.png
+    C2: LD_FFILSVRC2012_val_00018720.png
+  type: paired_comparison
+  unforced: null
+- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00001152.png"
+    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/ND_FF/ILSVRC2012_val_00001152.png"
+    class="tempimage">  <img src="static/imgs/Results/ND_Filter/ILSVRC2012_val_00001152.png"
+    class="tempimage">
+  id: trialAB2
+  name: null
+  reference: ''
+  showWaveform: false
+  stimuli:
+    C1: ND_FFILSVRC2012_val_00001152.png
+    C2: ND_FilterILSVRC2012_val_00001152.png
+  type: paired_comparison
+  unforced: null
+- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00017675.png"
+    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/G_Filter/ILSVRC2012_val_00017675.png"
+    class="tempimage">  <img src="static/imgs/Results/G_FF/ILSVRC2012_val_00017675.png"
+    class="tempimage">
+  id: trialAB2
+  name: null
+  reference: ''
+  showWaveform: false
+  stimuli:
+    C1: G_FilterILSVRC2012_val_00017675.png
+    C2: G_FFILSVRC2012_val_00017675.png
+  type: paired_comparison
+  unforced: null
+- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00026669.png"
+    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/G_Filter/ILSVRC2012_val_00026669.png"
+    class="tempimage">  <img src="static/imgs/Results/G_FF/ILSVRC2012_val_00026669.png"
+    class="tempimage">
+  id: trialAB2
+  name: null
+  reference: ''
+  showWaveform: false
+  stimuli:
+    C1: G_FilterILSVRC2012_val_00026669.png
+    C2: G_FFILSVRC2012_val_00026669.png
   type: paired_comparison
   unforced: null
 - content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00026773.png"
@@ -888,17 +394,368 @@ pages:
     C2: LD_FilterILSVRC2012_val_00026773.png
   type: paired_comparison
   unforced: null
-- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00010987.png"
-    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/G_FF/ILSVRC2012_val_00010987.png"
-    class="tempimage">  <img src="static/imgs/Results/G_Filter/ILSVRC2012_val_00010987.png"
+- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00008442.png"
+    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/L_FF/ILSVRC2012_val_00008442.png"
+    class="tempimage">  <img src="static/imgs/Results/L_Filter/ILSVRC2012_val_00008442.png"
     class="tempimage">
   id: trialAB2
   name: null
   reference: ''
   showWaveform: false
   stimuli:
-    C1: G_FFILSVRC2012_val_00010987.png
-    C2: G_FilterILSVRC2012_val_00010987.png
+    C1: L_FFILSVRC2012_val_00008442.png
+    C2: L_FilterILSVRC2012_val_00008442.png
+  type: paired_comparison
+  unforced: null
+- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00045401.png"
+    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/LD_Filter/ILSVRC2012_val_00045401.png"
+    class="tempimage">  <img src="static/imgs/Results/LD_FF/ILSVRC2012_val_00045401.png"
+    class="tempimage">
+  id: trialAB2
+  name: null
+  reference: ''
+  showWaveform: false
+  stimuli:
+    C1: LD_FilterILSVRC2012_val_00045401.png
+    C2: LD_FFILSVRC2012_val_00045401.png
+  type: paired_comparison
+  unforced: null
+- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00005732.png"
+    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/G_Filter/ILSVRC2012_val_00005732.png"
+    class="tempimage">  <img src="static/imgs/Results/G_FF/ILSVRC2012_val_00005732.png"
+    class="tempimage">
+  id: trialAB2
+  name: null
+  reference: ''
+  showWaveform: false
+  stimuli:
+    C1: G_FilterILSVRC2012_val_00005732.png
+    C2: G_FFILSVRC2012_val_00005732.png
+  type: paired_comparison
+  unforced: null
+- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00033927.png"
+    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/ND_Filter/ILSVRC2012_val_00033927.png"
+    class="tempimage">  <img src="static/imgs/Results/ND_FF/ILSVRC2012_val_00033927.png"
+    class="tempimage">
+  id: trialAB2
+  name: null
+  reference: ''
+  showWaveform: false
+  stimuli:
+    C1: ND_FilterILSVRC2012_val_00033927.png
+    C2: ND_FFILSVRC2012_val_00033927.png
+  type: paired_comparison
+  unforced: null
+- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00040041.png"
+    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/LD_Filter/ILSVRC2012_val_00040041.png"
+    class="tempimage">  <img src="static/imgs/Results/LD_FF/ILSVRC2012_val_00040041.png"
+    class="tempimage">
+  id: trialAB2
+  name: null
+  reference: ''
+  showWaveform: false
+  stimuli:
+    C1: LD_FilterILSVRC2012_val_00040041.png
+    C2: LD_FFILSVRC2012_val_00040041.png
+  type: paired_comparison
+  unforced: null
+- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00049985.png"
+    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/L_Filter/ILSVRC2012_val_00049985.png"
+    class="tempimage">  <img src="static/imgs/Results/L_FF/ILSVRC2012_val_00049985.png"
+    class="tempimage">
+  id: trialAB2
+  name: null
+  reference: ''
+  showWaveform: false
+  stimuli:
+    C1: L_FilterILSVRC2012_val_00049985.png
+    C2: L_FFILSVRC2012_val_00049985.png
+  type: paired_comparison
+  unforced: null
+- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00039693.png"
+    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/G_FF/ILSVRC2012_val_00039693.png"
+    class="tempimage">  <img src="static/imgs/Results/G_Filter/ILSVRC2012_val_00039693.png"
+    class="tempimage">
+  id: trialAB2
+  name: null
+  reference: ''
+  showWaveform: false
+  stimuli:
+    C1: G_FFILSVRC2012_val_00039693.png
+    C2: G_FilterILSVRC2012_val_00039693.png
+  type: paired_comparison
+  unforced: null
+- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00026982.png"
+    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/L_Filter/ILSVRC2012_val_00026982.png"
+    class="tempimage">  <img src="static/imgs/Results/L_FF/ILSVRC2012_val_00026982.png"
+    class="tempimage">
+  id: trialAB2
+  name: null
+  reference: ''
+  showWaveform: false
+  stimuli:
+    C1: L_FilterILSVRC2012_val_00026982.png
+    C2: L_FFILSVRC2012_val_00026982.png
+  type: paired_comparison
+  unforced: null
+- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00044204.png"
+    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/ND_FF/ILSVRC2012_val_00044204.png"
+    class="tempimage">  <img src="static/imgs/Results/ND_Filter/ILSVRC2012_val_00044204.png"
+    class="tempimage">
+  id: trialAB2
+  name: null
+  reference: ''
+  showWaveform: false
+  stimuli:
+    C1: ND_FFILSVRC2012_val_00044204.png
+    C2: ND_FilterILSVRC2012_val_00044204.png
+  type: paired_comparison
+  unforced: null
+- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00019850.png"
+    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/ND_Filter/ILSVRC2012_val_00019850.png"
+    class="tempimage">  <img src="static/imgs/Results/ND_FF/ILSVRC2012_val_00019850.png"
+    class="tempimage">
+  id: trialAB2
+  name: null
+  reference: ''
+  showWaveform: false
+  stimuli:
+    C1: ND_FilterILSVRC2012_val_00019850.png
+    C2: ND_FFILSVRC2012_val_00019850.png
+  type: paired_comparison
+  unforced: null
+- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00009567.png"
+    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/G_Filter/ILSVRC2012_val_00009567.png"
+    class="tempimage">  <img src="static/imgs/Results/G_FF/ILSVRC2012_val_00009567.png"
+    class="tempimage">
+  id: trialAB2
+  name: null
+  reference: ''
+  showWaveform: false
+  stimuli:
+    C1: G_FilterILSVRC2012_val_00009567.png
+    C2: G_FFILSVRC2012_val_00009567.png
+  type: paired_comparison
+  unforced: null
+- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00026421.png"
+    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/L_FF/ILSVRC2012_val_00026421.png"
+    class="tempimage">  <img src="static/imgs/Results/L_Filter/ILSVRC2012_val_00026421.png"
+    class="tempimage">
+  id: trialAB2
+  name: null
+  reference: ''
+  showWaveform: false
+  stimuli:
+    C1: L_FFILSVRC2012_val_00026421.png
+    C2: L_FilterILSVRC2012_val_00026421.png
+  type: paired_comparison
+  unforced: null
+- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00005079.png"
+    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/LD_FF/ILSVRC2012_val_00005079.png"
+    class="tempimage">  <img src="static/imgs/Results/LD_Filter/ILSVRC2012_val_00005079.png"
+    class="tempimage">
+  id: trialAB2
+  name: null
+  reference: ''
+  showWaveform: false
+  stimuli:
+    C1: LD_FFILSVRC2012_val_00005079.png
+    C2: LD_FilterILSVRC2012_val_00005079.png
+  type: paired_comparison
+  unforced: null
+- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00035445.png"
+    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/G_Filter/ILSVRC2012_val_00035445.png"
+    class="tempimage">  <img src="static/imgs/Results/G_FF/ILSVRC2012_val_00035445.png"
+    class="tempimage">
+  id: trialAB2
+  name: null
+  reference: ''
+  showWaveform: false
+  stimuli:
+    C1: G_FilterILSVRC2012_val_00035445.png
+    C2: G_FFILSVRC2012_val_00035445.png
+  type: paired_comparison
+  unforced: null
+- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00004140.png"
+    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/L_FF/ILSVRC2012_val_00004140.png"
+    class="tempimage">  <img src="static/imgs/Results/L_Filter/ILSVRC2012_val_00004140.png"
+    class="tempimage">
+  id: trialAB2
+  name: null
+  reference: ''
+  showWaveform: false
+  stimuli:
+    C1: L_FFILSVRC2012_val_00004140.png
+    C2: L_FilterILSVRC2012_val_00004140.png
+  type: paired_comparison
+  unforced: null
+- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00021917.png"
+    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/L_Filter/ILSVRC2012_val_00021917.png"
+    class="tempimage">  <img src="static/imgs/Results/L_FF/ILSVRC2012_val_00021917.png"
+    class="tempimage">
+  id: trialAB2
+  name: null
+  reference: ''
+  showWaveform: false
+  stimuli:
+    C1: L_FilterILSVRC2012_val_00021917.png
+    C2: L_FFILSVRC2012_val_00021917.png
+  type: paired_comparison
+  unforced: null
+- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00007399.png"
+    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/G_Filter/ILSVRC2012_val_00007399.png"
+    class="tempimage">  <img src="static/imgs/Results/G_FF/ILSVRC2012_val_00007399.png"
+    class="tempimage">
+  id: trialAB2
+  name: null
+  reference: ''
+  showWaveform: false
+  stimuli:
+    C1: G_FilterILSVRC2012_val_00007399.png
+    C2: G_FFILSVRC2012_val_00007399.png
+  type: paired_comparison
+  unforced: null
+- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00041015.png"
+    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/LD_FF/ILSVRC2012_val_00041015.png"
+    class="tempimage">  <img src="static/imgs/Results/LD_Filter/ILSVRC2012_val_00041015.png"
+    class="tempimage">
+  id: trialAB2
+  name: null
+  reference: ''
+  showWaveform: false
+  stimuli:
+    C1: LD_FFILSVRC2012_val_00041015.png
+    C2: LD_FilterILSVRC2012_val_00041015.png
+  type: paired_comparison
+  unforced: null
+- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00034253.png"
+    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/G_Filter/ILSVRC2012_val_00034253.png"
+    class="tempimage">  <img src="static/imgs/Results/G_FF/ILSVRC2012_val_00034253.png"
+    class="tempimage">
+  id: trialAB2
+  name: null
+  reference: ''
+  showWaveform: false
+  stimuli:
+    C1: G_FilterILSVRC2012_val_00034253.png
+    C2: G_FFILSVRC2012_val_00034253.png
+  type: paired_comparison
+  unforced: null
+- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00018840.png"
+    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/ND_FF/ILSVRC2012_val_00018840.png"
+    class="tempimage">  <img src="static/imgs/Results/ND_Filter/ILSVRC2012_val_00018840.png"
+    class="tempimage">
+  id: trialAB2
+  name: null
+  reference: ''
+  showWaveform: false
+  stimuli:
+    C1: ND_FFILSVRC2012_val_00018840.png
+    C2: ND_FilterILSVRC2012_val_00018840.png
+  type: paired_comparison
+  unforced: null
+- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00042973.png"
+    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/L_Filter/ILSVRC2012_val_00042973.png"
+    class="tempimage">  <img src="static/imgs/Results/L_FF/ILSVRC2012_val_00042973.png"
+    class="tempimage">
+  id: trialAB2
+  name: null
+  reference: ''
+  showWaveform: false
+  stimuli:
+    C1: L_FilterILSVRC2012_val_00042973.png
+    C2: L_FFILSVRC2012_val_00042973.png
+  type: paired_comparison
+  unforced: null
+- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00006631.png"
+    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/G_Filter/ILSVRC2012_val_00006631.png"
+    class="tempimage">  <img src="static/imgs/Results/G_FF/ILSVRC2012_val_00006631.png"
+    class="tempimage">
+  id: trialAB2
+  name: null
+  reference: ''
+  showWaveform: false
+  stimuli:
+    C1: G_FilterILSVRC2012_val_00006631.png
+    C2: G_FFILSVRC2012_val_00006631.png
+  type: paired_comparison
+  unforced: null
+- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00040833.png"
+    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/L_Filter/ILSVRC2012_val_00040833.png"
+    class="tempimage">  <img src="static/imgs/Results/L_FF/ILSVRC2012_val_00040833.png"
+    class="tempimage">
+  id: trialAB2
+  name: null
+  reference: ''
+  showWaveform: false
+  stimuli:
+    C1: L_FilterILSVRC2012_val_00040833.png
+    C2: L_FFILSVRC2012_val_00040833.png
+  type: paired_comparison
+  unforced: null
+- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00019616.png"
+    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/ND_Filter/ILSVRC2012_val_00019616.png"
+    class="tempimage">  <img src="static/imgs/Results/ND_FF/ILSVRC2012_val_00019616.png"
+    class="tempimage">
+  id: trialAB2
+  name: null
+  reference: ''
+  showWaveform: false
+  stimuli:
+    C1: ND_FilterILSVRC2012_val_00019616.png
+    C2: ND_FFILSVRC2012_val_00019616.png
+  type: paired_comparison
+  unforced: null
+- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00023826.png"
+    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/LD_Filter/ILSVRC2012_val_00023826.png"
+    class="tempimage">  <img src="static/imgs/Results/LD_FF/ILSVRC2012_val_00023826.png"
+    class="tempimage">
+  id: trialAB2
+  name: null
+  reference: ''
+  showWaveform: false
+  stimuli:
+    C1: LD_FilterILSVRC2012_val_00023826.png
+    C2: LD_FFILSVRC2012_val_00023826.png
+  type: paired_comparison
+  unforced: null
+- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00010731.png"
+    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/G_Filter/ILSVRC2012_val_00010731.png"
+    class="tempimage">  <img src="static/imgs/Results/G_FF/ILSVRC2012_val_00010731.png"
+    class="tempimage">
+  id: trialAB2
+  name: null
+  reference: ''
+  showWaveform: false
+  stimuli:
+    C1: G_FilterILSVRC2012_val_00010731.png
+    C2: G_FFILSVRC2012_val_00010731.png
+  type: paired_comparison
+  unforced: null
+- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00031761.png"
+    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/L_FF/ILSVRC2012_val_00031761.png"
+    class="tempimage">  <img src="static/imgs/Results/L_Filter/ILSVRC2012_val_00031761.png"
+    class="tempimage">
+  id: trialAB2
+  name: null
+  reference: ''
+  showWaveform: false
+  stimuli:
+    C1: L_FFILSVRC2012_val_00031761.png
+    C2: L_FilterILSVRC2012_val_00031761.png
+  type: paired_comparison
+  unforced: null
+- content: Original image <br/> <img src="static/imgs/Results/Original/ILSVRC2012_val_00004617.png"
+    class="tempimage"> <br /> Filtered images <br/> <img src="static/imgs/Results/G_FF/ILSVRC2012_val_00004617.png"
+    class="tempimage">  <img src="static/imgs/Results/G_Filter/ILSVRC2012_val_00004617.png"
+    class="tempimage">
+  id: trialAB2
+  name: null
+  reference: ''
+  showWaveform: false
+  stimuli:
+    C1: G_FFILSVRC2012_val_00004617.png
+    C2: G_FilterILSVRC2012_val_00004617.png
   type: paired_comparison
   unforced: null
 - content: 
